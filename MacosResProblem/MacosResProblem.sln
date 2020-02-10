@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacosResProblem", "MacosResProblem\MacosResProblem.csproj", "{491060DF-AECC-4879-B047-EE5C11EAC8AB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0437E67-96AB-49E0-BD1E-61CD1D130ABE}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyControls", "Controls\external\MyControls\MyControls.csproj", "{BFF69051-5D88-4BB1-81AC-60E1AFE24734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyControls", "Source\MyControls\MyControls.csproj", "{1BBCA8F6-BDCD-4548-9B04-CBA17BAAC6AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacosResProblem", "Source\Platforms\MacosResProblem\MacosResProblem.csproj", "{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{491060DF-AECC-4879-B047-EE5C11EAC8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{491060DF-AECC-4879-B047-EE5C11EAC8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{491060DF-AECC-4879-B047-EE5C11EAC8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{491060DF-AECC-4879-B047-EE5C11EAC8AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFF69051-5D88-4BB1-81AC-60E1AFE24734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFF69051-5D88-4BB1-81AC-60E1AFE24734}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFF69051-5D88-4BB1-81AC-60E1AFE24734}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFF69051-5D88-4BB1-81AC-60E1AFE24734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBCA8F6-BDCD-4548-9B04-CBA17BAAC6AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBCA8F6-BDCD-4548-9B04-CBA17BAAC6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBCA8F6-BDCD-4548-9B04-CBA17BAAC6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBCA8F6-BDCD-4548-9B04-CBA17BAAC6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
