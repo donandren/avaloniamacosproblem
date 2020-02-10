@@ -2,7 +2,7 @@
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
-namespace MacosResProblem
+namespace MyApp
 {
     public class App : Application
     {

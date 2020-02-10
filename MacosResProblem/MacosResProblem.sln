@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyControls", "Source\MyCont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MacosResProblem", "Source\Platforms\MacosResProblem\MacosResProblem.csproj", "{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "Source\MyApp\MyApp.csproj", "{35AA90A4-E4DF-4C74-B306-58862538B760}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FABF864C-0C36-44B7-8AC1-916B06E8E2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AA90A4-E4DF-4C74-B306-58862538B760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AA90A4-E4DF-4C74-B306-58862538B760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AA90A4-E4DF-4C74-B306-58862538B760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AA90A4-E4DF-4C74-B306-58862538B760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

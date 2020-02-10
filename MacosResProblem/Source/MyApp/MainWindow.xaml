@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:myc="clr-namespace:MyControls;assembly=MyControls"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="MacosResProblem.MainWindow"
+        x:Class="MyApp.MainWindow"
         Title="MacosResProblem">
     <myc:UserControl1 />
 </Window>

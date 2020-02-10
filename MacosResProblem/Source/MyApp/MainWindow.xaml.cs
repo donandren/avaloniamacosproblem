@@ -2,7 +2,7 @@
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace MacosResProblem
+namespace MyApp
 {
     public class MainWindow : Window
     {
