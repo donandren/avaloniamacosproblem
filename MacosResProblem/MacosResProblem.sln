@@ -6,11 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0437E67-96AB-49E0-BD1E-61CD1D130ABE}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
+		nuget.config = nuget.config
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyControls", "Source\MyControls\MyControls.csproj", "{1BBCA8F6-BDCD-4548-9B04-CBA17BAAC6AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp", "Source\MyApp\MyApp.csproj", "{35AA90A4-E4DF-4C74-B306-58862538B760}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "Source\MyApp\MyApp.csproj", "{35AA90A4-E4DF-4C74-B306-58862538B760}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.NetCore", "Source\Platforms\MyApp.NetCore\MyApp.NetCore.csproj", "{90FA62EC-CC91-4BBC-A801-F954B6404D04}"
 EndProject
