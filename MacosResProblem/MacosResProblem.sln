@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExternalControls", "exter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{F4DBD7C7-469C-41DE-832B-CE9F2E2F2799}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{0B0E96F5-753B-4EE4-89B7-8911A772E8D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{90FA62EC-CC91-4BBC-A801-F954B6404D04} = {0B0E96F5-753B-4EE4-89B7-8911A772E8D4}
 		{BE676B7A-65D6-4880-BE70-BDAB4E019084} = {F4DBD7C7-469C-41DE-832B-CE9F2E2F2799}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
