@@ -16,6 +16,6 @@
     <PackageReference Include="Avalonia.Desktop" Version="0.9.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Controls\MyControls\MyControls.csproj" />
+    <ProjectReference Include="..\Controls\external\MyControls\MyControls.csproj" />
   </ItemGroup>
 </Project>
