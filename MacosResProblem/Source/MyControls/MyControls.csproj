@@ -7,12 +7,12 @@
     <OutputPath>$(SolutionDir)/Output/bin/$(Configuration)/$(AssemblyName)/</OutputPath>
     <IntermediateOutputPath>$(SolutionDir)/Output/obj/$(Configuration)/$(AssemblyName)/</IntermediateOutputPath>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <Compile Update="./**/*.xaml.cs">
+    <Compile Update=".\**\*.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
-    <AvaloniaResource Include="./**/*.xaml">
+    <AvaloniaResource Include=".\**\*.xaml">
       <SubType>Designer</SubType>
     </AvaloniaResource>
   </ItemGroup>
