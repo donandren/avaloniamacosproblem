@@ -1,6 +1,6 @@
 <Project>
-  <PropertyGroup>
+  <!--<PropertyGroup>
     <OutputPath>$(SolutionDir)/Output/bin/$(Configuration)/$(AssemblyName)/</OutputPath>
     <IntermediateOutputPath>$(SolutionDir)/Output/obj/$(Configuration)/$(AssemblyName)/</IntermediateOutputPath>
-  </PropertyGroup>
+  </PropertyGroup>-->
 </Project>

@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup>
+    <OutputPath>$(SolutionDir)/Output/bin/$(Configuration)/$(AssemblyName)/</OutputPath>
+    <IntermediateOutputPath>$(SolutionDir)/Output/obj/$(Configuration)/$(AssemblyName)/</IntermediateOutputPath>
+  </PropertyGroup>
 
   <ItemGroup>
     <None Remove="UserControl1.xaml" />
