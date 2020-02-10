@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup>
+    <OutputPath>$(SolutionDir)/Output/bin/$(Configuration)/$(AssemblyName)/</OutputPath>
+    <IntermediateOutputPath>$(SolutionDir)/Output/obj/$(Configuration)/$(AssemblyName)/</IntermediateOutputPath>
+  </PropertyGroup>
 
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
@@ -15,10 +19,5 @@
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.9.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\external\1\2\3\MyExternalControls\MyExternalControls.csproj" />
-    <ProjectReference Include="..\MyControls\MyControls.csproj" />
   </ItemGroup>
 </Project>

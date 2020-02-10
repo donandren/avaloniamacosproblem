@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp", "Source\MyApp\MyApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.NetCore", "Source\Platforms\MyApp.NetCore\MyApp.NetCore.csproj", "{90FA62EC-CC91-4BBC-A801-F954B6404D04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExternalControls", "external\1\2\3\MyExternalControls\MyExternalControls.csproj", "{BE676B7A-65D6-4880-BE70-BDAB4E019084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{90FA62EC-CC91-4BBC-A801-F954B6404D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90FA62EC-CC91-4BBC-A801-F954B6404D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90FA62EC-CC91-4BBC-A801-F954B6404D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE676B7A-65D6-4880-BE70-BDAB4E019084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE676B7A-65D6-4880-BE70-BDAB4E019084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE676B7A-65D6-4880-BE70-BDAB4E019084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE676B7A-65D6-4880-BE70-BDAB4E019084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
