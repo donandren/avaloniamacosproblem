@@ -1,0 +1,9 @@
+﻿<Styles  xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+          xmlns:local="clr-namespace:MyControls"
+         >
+  <Style Selector="local|UserControl1">
+    <Setter Property="Background" Value="Orange" />
+  </Style>
+</Styles>
